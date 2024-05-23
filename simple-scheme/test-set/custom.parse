@@ -1,0 +1,725 @@
+<Define>
+ <Identifier val='vec1' />
+ <Tick>
+  <Vector>
+   <Int val='1' />
+   <Int val='2' />
+   <Int val='3' />
+   <Int val='4' />
+  </Vector>
+ </Tick>
+</Define>
+
+<Apply>
+ <Identifier val='vector-length' />
+ <Identifier val='vec1' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector-get' />
+ <Identifier val='vec1' />
+ <Int val='1' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector-set!' />
+ <Identifier val='vec1' />
+ <Int val='1' />
+ <Int val='7' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector-get' />
+ <Identifier val='vec1' />
+ <Int val='1' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector?' />
+ <Identifier val='vec1' />
+</Apply>
+
+<Define>
+ <Identifier val='vec2' />
+ <Apply>
+  <Identifier val='vector' />
+  <Int val='1' />
+  <Int val='2' />
+  <Int val='3' />
+ </Apply>
+</Define>
+
+<Apply>
+ <Identifier val='vector-length' />
+ <Identifier val='vec2' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector-get' />
+ <Identifier val='vec2' />
+ <Int val='1' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector-set!' />
+ <Identifier val='vec2' />
+ <Int val='1' />
+ <Int val='7' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector-get' />
+ <Identifier val='vec2' />
+ <Int val='1' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector?' />
+ <Identifier val='vec2' />
+</Apply>
+
+<Define>
+ <Identifier val='vec2' />
+ <Apply>
+  <Identifier val='make-vector' />
+  <Int val='6' />
+ </Apply>
+</Define>
+
+<Apply>
+ <Identifier val='vector-get' />
+ <Identifier val='vec2' />
+ <Int val='1' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector-set!' />
+ <Identifier val='vec2' />
+ <Int val='1' />
+ <Int val='7' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector-get' />
+ <Identifier val='vec2' />
+ <Int val='1' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector?' />
+ <Identifier val='vec2' />
+</Apply>
+
+<Apply>
+ <Identifier val='vector?' />
+ <Tick>
+  <Vector>
+  </Vector>
+ </Tick>
+</Apply>
+
+<Apply>
+ <Identifier val='vector?' />
+ <Apply>
+  <Identifier val='make-vector' />
+  <Int val='0' />
+ </Apply>
+</Apply>
+
+<Apply>
+ <Identifier val='vector?' />
+ <Apply>
+  <Identifier val='vector' />
+ </Apply>
+</Apply>
+
+<Define>
+ <Identifier val='list1' />
+ <Tick>
+  <Cons>
+   <Int val='1' />
+   <Cons>
+    <Int val='2' />
+    <Cons>
+     <Int val='3' />
+     <Cons>
+      <Int val='4' />
+      <Cons>
+       <Null />
+       <Null />
+      </Cons>
+     </Cons>
+    </Cons>
+   </Cons>
+  </Cons>
+ </Tick>
+</Define>
+
+<Apply>
+ <Identifier val='car' />
+ <Identifier val='list1' />
+</Apply>
+
+<Apply>
+ <Identifier val='cdr' />
+ <Identifier val='list1' />
+</Apply>
+
+<Apply>
+ <Identifier val='cons' />
+ <Int val='-3' />
+ <Identifier val='list1' />
+</Apply>
+
+<Define>
+ <Identifier val='list2' />
+ <Apply>
+  <Identifier val='list' />
+  <Int val='1' />
+  <Int val='2' />
+  <Int val='3' />
+ </Apply>
+</Define>
+
+<Identifier val='list2' />
+
+<Apply>
+ <Identifier val='cons' />
+ <Int val='5' />
+ <Tick>
+  <Cons>
+   <Null />
+   <Null />
+  </Cons>
+ </Tick>
+</Apply>
+
+<Apply>
+ <Identifier val='list?' />
+ <Int val='5' />
+</Apply>
+
+<Apply>
+ <Identifier val='list?' />
+ <Tick>
+  <Cons>
+   <Null />
+   <Null />
+  </Cons>
+ </Tick>
+</Apply>
+
+<Apply>
+ <Identifier val='list?' />
+ <Tick>
+  <Cons>
+   <Int val='1' />
+   <Cons>
+    <Null />
+    <Null />
+   </Cons>
+  </Cons>
+ </Tick>
+</Apply>
+
+<Apply>
+ <Identifier val='list?' />
+ <Tick>
+  <Cons>
+   <Int val='1' />
+   <Cons>
+    <Int val='2' />
+    <Cons>
+     <Null />
+     <Null />
+    </Cons>
+   </Cons>
+  </Cons>
+ </Tick>
+</Apply>
+
+<Apply>
+ <Identifier val='list?' />
+ <Apply>
+  <Identifier val='list' />
+ </Apply>
+</Apply>
+
+<Apply>
+ <Identifier val='list?' />
+ <Apply>
+  <Identifier val='list' />
+  <Int val='1' />
+  <Int val='2' />
+ </Apply>
+</Apply>
+
+<Apply>
+ <Identifier val='set-car!' />
+ <Identifier val='list1' />
+ <Int val='-8' />
+</Apply>
+
+<Identifier val='list1' />
+
+<Apply>
+ <Identifier val='set-cdr!' />
+ <Identifier val='list1' />
+ <Tick>
+  <Cons>
+   <Int val='6' />
+   <Cons>
+    <Null />
+    <Null />
+   </Cons>
+  </Cons>
+ </Tick>
+</Apply>
+
+<Identifier val='list1' />
+
+<Define>
+ <Identifier val='str1' />
+ <Str val='Hello, world!' />
+</Define>
+
+<Identifier val='str1' />
+
+<Apply>
+ <Identifier val='string-append' />
+ <Identifier val='str1' />
+ <Str val=' foo' />
+</Apply>
+
+<Apply>
+ <Identifier val='string-length' />
+ <Identifier val='str1' />
+</Apply>
+
+<Apply>
+ <Identifier val='substring' />
+ <Identifier val='str1' />
+ <Int val='1' />
+ <Int val='4' />
+</Apply>
+
+<Apply>
+ <Identifier val='string?' />
+ <Identifier val='str1' />
+</Apply>
+
+<Apply>
+ <Identifier val='string?' />
+ <Int val='5' />
+</Apply>
+
+<Apply>
+ <Identifier val='string-ref' />
+ <Identifier val='str1' />
+ <Int val='4' />
+</Apply>
+
+<Apply>
+ <Identifier val='string-equal?' />
+ <Identifier val='str1' />
+ <Str val='foo' />
+</Apply>
+
+<Apply>
+ <Identifier val='string-equal?' />
+ <Identifier val='str1' />
+ <Str val='Hello, world!' />
+</Apply>
+
+<Apply>
+ <Identifier val='string' />
+ <Char val='b' />
+ <Char val='a' />
+ <Char val='r' />
+</Apply>
+
+<Apply>
+ <Identifier val='+' />
+ <Int val='3' />
+ <Int val='5' />
+</Apply>
+
+<Apply>
+ <Identifier val='-' />
+ <Int val='3' />
+ <Int val='5' />
+</Apply>
+
+<Apply>
+ <Identifier val='*' />
+ <Int val='3' />
+ <Int val='5' />
+</Apply>
+
+<Apply>
+ <Identifier val='/' />
+ <Int val='8' />
+ <Int val='4' />
+</Apply>
+
+<Apply>
+ <Identifier val='/' />
+ <Int val='2' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='%' />
+ <Int val='8' />
+ <Int val='5' />
+</Apply>
+
+<Apply>
+ <Identifier val='==' />
+ <Int val='8' />
+ <Int val='9' />
+</Apply>
+
+<Apply>
+ <Identifier val='==' />
+ <Int val='8' />
+ <Int val='8' />
+</Apply>
+
+<Apply>
+ <Identifier val='==' />
+ <Int val='8' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='>' />
+ <Int val='8' />
+ <Int val='9' />
+</Apply>
+
+<Apply>
+ <Identifier val='>' />
+ <Int val='8' />
+ <Int val='8' />
+</Apply>
+
+<Apply>
+ <Identifier val='>' />
+ <Int val='8' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='>=' />
+ <Int val='8' />
+ <Int val='9' />
+</Apply>
+
+<Apply>
+ <Identifier val='>=' />
+ <Int val='8' />
+ <Int val='8' />
+</Apply>
+
+<Apply>
+ <Identifier val='>=' />
+ <Int val='8' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='<' />
+ <Int val='8' />
+ <Int val='9' />
+</Apply>
+
+<Apply>
+ <Identifier val='<' />
+ <Int val='8' />
+ <Int val='8' />
+</Apply>
+
+<Apply>
+ <Identifier val='<' />
+ <Int val='8' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='<=' />
+ <Int val='8' />
+ <Int val='9' />
+</Apply>
+
+<Apply>
+ <Identifier val='<=' />
+ <Int val='8' />
+ <Int val='8' />
+</Apply>
+
+<Apply>
+ <Identifier val='<=' />
+ <Int val='8' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='abs' />
+ <Int val='5' />
+</Apply>
+
+<Apply>
+ <Identifier val='abs' />
+ <Int val='0' />
+</Apply>
+
+<Apply>
+ <Identifier val='abs' />
+ <Int val='-4' />
+</Apply>
+
+<Apply>
+ <Identifier val='abs' />
+ <Dbl val='5.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='abs' />
+ <Dbl val='-4.600000' />
+</Apply>
+
+<Apply>
+ <Identifier val='abs' />
+ <Dbl val='0.000000' />
+</Apply>
+
+<Apply>
+ <Identifier val='abs' />
+ <Identifier val='inf+' />
+</Apply>
+
+<Apply>
+ <Identifier val='abs' />
+ <Identifier val='inf-' />
+</Apply>
+
+<Apply>
+ <Identifier val='abs' />
+ <Identifier val='pi' />
+</Apply>
+
+<Apply>
+ <Identifier val='sqrt' />
+ <Int val='2' />
+</Apply>
+
+<Apply>
+ <Identifier val='acos' />
+ <Dbl val='0.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='asin' />
+ <Dbl val='0.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='atan' />
+ <Dbl val='0.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='cos' />
+ <Dbl val='0.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='cosh' />
+ <Dbl val='0.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='sin' />
+ <Dbl val='0.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='sinh' />
+ <Dbl val='0.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='tan' />
+ <Dbl val='0.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='tanh' />
+ <Dbl val='0.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='integer?' />
+ <Dbl val='1.300000' />
+</Apply>
+
+<Apply>
+ <Identifier val='integer?' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='double?' />
+ <Dbl val='1.300000' />
+</Apply>
+
+<Apply>
+ <Identifier val='double?' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='number?' />
+ <Int val='5' />
+</Apply>
+
+<Apply>
+ <Identifier val='number?' />
+ <Dbl val='5.800000' />
+</Apply>
+
+<Apply>
+ <Identifier val='number?' />
+ <Str val='hi' />
+</Apply>
+
+<Apply>
+ <Identifier val='symbol?' />
+ <Tick>
+  <Symbol val='a' />
+ </Tick>
+</Apply>
+
+<Apply>
+ <Identifier val='symbol?' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='procedure?' />
+ <Identifier val='+' />
+</Apply>
+
+<Define>
+ <Identifier val='lambda1' />
+ <Lambda>
+  <Formals>
+   <Identifier val='formal1' />
+  </Formals>
+  <Expressions>
+   <Apply>
+    <Identifier val='+' />
+    <Identifier val='formal1' />
+    <Int val='1' />
+   </Apply>
+  </Expressions>
+ </Lambda>
+</Define>
+
+<Apply>
+ <Identifier val='procedure?' />
+ <Identifier val='lambda1' />
+</Apply>
+
+<Apply>
+ <Identifier val='log10' />
+ <Dbl val='1.300000' />
+</Apply>
+
+<Apply>
+ <Identifier val='loge' />
+ <Dbl val='1.300000' />
+</Apply>
+
+<Apply>
+ <Identifier val='pow' />
+ <Int val='5' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='not' />
+ <Bool val='true' />
+</Apply>
+
+<Apply>
+ <Identifier val='not' />
+ <Bool val='false' />
+</Apply>
+
+<Apply>
+ <Identifier val='not' />
+ <Int val='3' />
+</Apply>
+
+<Apply>
+ <Identifier val='integer?' />
+ <Apply>
+  <Identifier val='integer->double' />
+  <Int val='5' />
+ </Apply>
+</Apply>
+
+<Apply>
+ <Identifier val='double?' />
+ <Apply>
+  <Identifier val='integer->double' />
+  <Int val='5' />
+ </Apply>
+</Apply>
+
+<Apply>
+ <Identifier val='integer?' />
+ <Apply>
+  <Identifier val='double->integer' />
+  <Dbl val='5.800000' />
+ </Apply>
+</Apply>
+
+<Apply>
+ <Identifier val='double?' />
+ <Apply>
+  <Identifier val='double->integer' />
+  <Dbl val='5.800000' />
+ </Apply>
+</Apply>
+
+<Apply>
+ <Identifier val='null?' />
+ <Tick>
+  <Cons>
+   <Null />
+   <Null />
+  </Cons>
+ </Tick>
+</Apply>
+
+<Apply>
+ <Identifier val='null?' />
+ <Tick>
+  <Vector>
+  </Vector>
+ </Tick>
+</Apply>
+
+<Apply>
+ <Identifier val='null?' />
+ <Bool val='false' />
+</Apply>
+
+<Apply>
+ <Identifier val='null?' />
+ <Bool val='true' />
+</Apply>
+

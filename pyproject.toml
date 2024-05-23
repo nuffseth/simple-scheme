@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "simple-scheme"
+version = "0.0.1"
+authors = [
+  { name="nuffseth", email="alleedev3@kon.simplelogin.com" },
+]
+license = { file = "LICENSE" }
+description = "A package that will interpret scheme code and output the result."
+readme = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+keywords = ['scheme']
+
+[project.urls]
+Homepage = "https://github.com/nuffseth/simple-scheme"
+Issues = "https://github.com/nuffseth/simple-scheme/issues"
+
+[project.scripts]
+simple-scheme = "simple-scheme.cli:main"

@@ -1,0 +1,577 @@
+<LParenToken line=2 col=1 />
+<DefineToken line=2 col=2 />
+<IdentifierToken line=2 col=9 val='vec1' />
+<AbbrevToken line=2 col=14 />
+<VectorToken line=2 col=15 />
+<IntToken line=2 col=17 val='1' />
+<IntToken line=2 col=19 val='2' />
+<IntToken line=2 col=21 val='3' />
+<IntToken line=2 col=23 val='4' />
+<RParenToken line=2 col=24 />
+<RParenToken line=2 col=25 />
+<LParenToken line=3 col=1 />
+<IdentifierToken line=3 col=2 val='vector-length' />
+<IdentifierToken line=3 col=16 val='vec1' />
+<RParenToken line=3 col=20 />
+<LParenToken line=4 col=1 />
+<IdentifierToken line=4 col=2 val='vector-get' />
+<IdentifierToken line=4 col=13 val='vec1' />
+<IntToken line=4 col=18 val='1' />
+<RParenToken line=4 col=19 />
+<LParenToken line=5 col=1 />
+<IdentifierToken line=5 col=2 val='vector-set!' />
+<IdentifierToken line=5 col=14 val='vec1' />
+<IntToken line=5 col=19 val='1' />
+<IntToken line=5 col=21 val='7' />
+<RParenToken line=5 col=22 />
+<LParenToken line=6 col=1 />
+<IdentifierToken line=6 col=2 val='vector-get' />
+<IdentifierToken line=6 col=13 val='vec1' />
+<IntToken line=6 col=18 val='1' />
+<RParenToken line=6 col=19 />
+<LParenToken line=7 col=1 />
+<IdentifierToken line=7 col=2 val='vector?' />
+<IdentifierToken line=7 col=10 val='vec1' />
+<RParenToken line=7 col=14 />
+<LParenToken line=9 col=1 />
+<DefineToken line=9 col=2 />
+<IdentifierToken line=9 col=9 val='vec2' />
+<LParenToken line=9 col=14 />
+<IdentifierToken line=9 col=15 val='vector' />
+<IntToken line=9 col=22 val='1' />
+<IntToken line=9 col=24 val='2' />
+<IntToken line=9 col=26 val='3' />
+<RParenToken line=9 col=27 />
+<RParenToken line=9 col=28 />
+<LParenToken line=10 col=1 />
+<IdentifierToken line=10 col=2 val='vector-length' />
+<IdentifierToken line=10 col=16 val='vec2' />
+<RParenToken line=10 col=20 />
+<LParenToken line=11 col=1 />
+<IdentifierToken line=11 col=2 val='vector-get' />
+<IdentifierToken line=11 col=13 val='vec2' />
+<IntToken line=11 col=18 val='1' />
+<RParenToken line=11 col=19 />
+<LParenToken line=12 col=1 />
+<IdentifierToken line=12 col=2 val='vector-set!' />
+<IdentifierToken line=12 col=14 val='vec2' />
+<IntToken line=12 col=19 val='1' />
+<IntToken line=12 col=21 val='7' />
+<RParenToken line=12 col=22 />
+<LParenToken line=13 col=1 />
+<IdentifierToken line=13 col=2 val='vector-get' />
+<IdentifierToken line=13 col=13 val='vec2' />
+<IntToken line=13 col=18 val='1' />
+<RParenToken line=13 col=19 />
+<LParenToken line=14 col=1 />
+<IdentifierToken line=14 col=2 val='vector?' />
+<IdentifierToken line=14 col=10 val='vec2' />
+<RParenToken line=14 col=14 />
+<LParenToken line=16 col=1 />
+<DefineToken line=16 col=2 />
+<IdentifierToken line=16 col=9 val='vec2' />
+<LParenToken line=16 col=14 />
+<IdentifierToken line=16 col=15 val='make-vector' />
+<IntToken line=16 col=27 val='6' />
+<RParenToken line=16 col=28 />
+<RParenToken line=16 col=29 />
+<LParenToken line=17 col=1 />
+<IdentifierToken line=17 col=2 val='vector-get' />
+<IdentifierToken line=17 col=13 val='vec2' />
+<IntToken line=17 col=18 val='1' />
+<RParenToken line=17 col=19 />
+<LParenToken line=18 col=1 />
+<IdentifierToken line=18 col=2 val='vector-set!' />
+<IdentifierToken line=18 col=14 val='vec2' />
+<IntToken line=18 col=19 val='1' />
+<IntToken line=18 col=21 val='7' />
+<RParenToken line=18 col=22 />
+<LParenToken line=19 col=1 />
+<IdentifierToken line=19 col=2 val='vector-get' />
+<IdentifierToken line=19 col=13 val='vec2' />
+<IntToken line=19 col=18 val='1' />
+<RParenToken line=19 col=19 />
+<LParenToken line=20 col=1 />
+<IdentifierToken line=20 col=2 val='vector?' />
+<IdentifierToken line=20 col=10 val='vec2' />
+<RParenToken line=20 col=14 />
+<LParenToken line=21 col=1 />
+<IdentifierToken line=21 col=2 val='vector?' />
+<AbbrevToken line=21 col=10 />
+<VectorToken line=21 col=11 />
+<RParenToken line=21 col=13 />
+<RParenToken line=21 col=14 />
+<LParenToken line=22 col=1 />
+<IdentifierToken line=22 col=2 val='vector?' />
+<LParenToken line=22 col=10 />
+<IdentifierToken line=22 col=11 val='make-vector' />
+<IntToken line=22 col=23 val='0' />
+<RParenToken line=22 col=24 />
+<RParenToken line=22 col=25 />
+<LParenToken line=23 col=1 />
+<IdentifierToken line=23 col=2 val='vector?' />
+<LParenToken line=23 col=10 />
+<IdentifierToken line=23 col=11 val='vector' />
+<RParenToken line=23 col=17 />
+<RParenToken line=23 col=18 />
+<LParenToken line=27 col=1 />
+<DefineToken line=27 col=2 />
+<IdentifierToken line=27 col=9 val='list1' />
+<AbbrevToken line=27 col=15 />
+<LParenToken line=27 col=16 />
+<IntToken line=27 col=17 val='1' />
+<IntToken line=27 col=19 val='2' />
+<IntToken line=27 col=21 val='3' />
+<IntToken line=27 col=23 val='4' />
+<RParenToken line=27 col=24 />
+<RParenToken line=27 col=25 />
+<LParenToken line=28 col=1 />
+<IdentifierToken line=28 col=2 val='car' />
+<IdentifierToken line=28 col=6 val='list1' />
+<RParenToken line=28 col=11 />
+<LParenToken line=29 col=1 />
+<IdentifierToken line=29 col=2 val='cdr' />
+<IdentifierToken line=29 col=6 val='list1' />
+<RParenToken line=29 col=11 />
+<LParenToken line=30 col=1 />
+<IdentifierToken line=30 col=2 val='cons' />
+<IntToken line=30 col=7 val='-3' />
+<IdentifierToken line=30 col=10 val='list1' />
+<RParenToken line=30 col=15 />
+<LParenToken line=31 col=1 />
+<DefineToken line=31 col=2 />
+<IdentifierToken line=31 col=9 val='list2' />
+<LParenToken line=31 col=15 />
+<IdentifierToken line=31 col=16 val='list' />
+<IntToken line=31 col=21 val='1' />
+<IntToken line=31 col=23 val='2' />
+<IntToken line=31 col=25 val='3' />
+<RParenToken line=31 col=26 />
+<RParenToken line=31 col=27 />
+<IdentifierToken line=32 col=1 val='list2' />
+<LParenToken line=33 col=1 />
+<IdentifierToken line=33 col=2 val='cons' />
+<IntToken line=33 col=7 val='5' />
+<AbbrevToken line=33 col=9 />
+<LParenToken line=33 col=10 />
+<RParenToken line=33 col=11 />
+<RParenToken line=33 col=12 />
+<LParenToken line=34 col=1 />
+<IdentifierToken line=34 col=2 val='list?' />
+<IntToken line=34 col=8 val='5' />
+<RParenToken line=34 col=9 />
+<LParenToken line=35 col=1 />
+<IdentifierToken line=35 col=2 val='list?' />
+<AbbrevToken line=35 col=8 />
+<LParenToken line=35 col=9 />
+<RParenToken line=35 col=10 />
+<RParenToken line=35 col=11 />
+<LParenToken line=36 col=1 />
+<IdentifierToken line=36 col=2 val='list?' />
+<AbbrevToken line=36 col=8 />
+<LParenToken line=36 col=9 />
+<IntToken line=36 col=10 val='1' />
+<RParenToken line=36 col=11 />
+<RParenToken line=36 col=12 />
+<LParenToken line=37 col=1 />
+<IdentifierToken line=37 col=2 val='list?' />
+<AbbrevToken line=37 col=8 />
+<LParenToken line=37 col=9 />
+<IntToken line=37 col=10 val='1' />
+<IntToken line=37 col=12 val='2' />
+<RParenToken line=37 col=13 />
+<RParenToken line=37 col=14 />
+<LParenToken line=38 col=1 />
+<IdentifierToken line=38 col=2 val='list?' />
+<LParenToken line=38 col=8 />
+<IdentifierToken line=38 col=9 val='list' />
+<RParenToken line=38 col=13 />
+<RParenToken line=38 col=14 />
+<LParenToken line=39 col=1 />
+<IdentifierToken line=39 col=2 val='list?' />
+<LParenToken line=39 col=8 />
+<IdentifierToken line=39 col=9 val='list' />
+<IntToken line=39 col=14 val='1' />
+<IntToken line=39 col=16 val='2' />
+<RParenToken line=39 col=17 />
+<RParenToken line=39 col=18 />
+<LParenToken line=40 col=1 />
+<IdentifierToken line=40 col=2 val='set-car!' />
+<IdentifierToken line=40 col=11 val='list1' />
+<IntToken line=40 col=17 val='-8' />
+<RParenToken line=40 col=19 />
+<IdentifierToken line=41 col=1 val='list1' />
+<LParenToken line=42 col=1 />
+<IdentifierToken line=42 col=2 val='set-cdr!' />
+<IdentifierToken line=42 col=11 val='list1' />
+<AbbrevToken line=42 col=17 />
+<LParenToken line=42 col=18 />
+<IntToken line=42 col=19 val='6' />
+<RParenToken line=42 col=20 />
+<RParenToken line=42 col=21 />
+<IdentifierToken line=43 col=1 val='list1' />
+<LParenToken line=47 col=1 />
+<DefineToken line=47 col=2 />
+<IdentifierToken line=47 col=9 val='str1' />
+<StrToken line=47 col=14 val='Hello, world!' />
+<RParenToken line=47 col=29 />
+<IdentifierToken line=48 col=1 val='str1' />
+<LParenToken line=49 col=1 />
+<IdentifierToken line=49 col=2 val='string-append' />
+<IdentifierToken line=49 col=16 val='str1' />
+<StrToken line=49 col=21 val=' foo' />
+<RParenToken line=49 col=27 />
+<LParenToken line=50 col=1 />
+<IdentifierToken line=50 col=2 val='string-length' />
+<IdentifierToken line=50 col=16 val='str1' />
+<RParenToken line=50 col=20 />
+<LParenToken line=51 col=1 />
+<IdentifierToken line=51 col=2 val='substring' />
+<IdentifierToken line=51 col=12 val='str1' />
+<IntToken line=51 col=17 val='1' />
+<IntToken line=51 col=19 val='4' />
+<RParenToken line=51 col=20 />
+<LParenToken line=52 col=1 />
+<IdentifierToken line=52 col=2 val='string?' />
+<IdentifierToken line=52 col=10 val='str1' />
+<RParenToken line=52 col=14 />
+<LParenToken line=53 col=1 />
+<IdentifierToken line=53 col=2 val='string?' />
+<IntToken line=53 col=10 val='5' />
+<RParenToken line=53 col=11 />
+<LParenToken line=54 col=1 />
+<IdentifierToken line=54 col=2 val='string-ref' />
+<IdentifierToken line=54 col=13 val='str1' />
+<IntToken line=54 col=18 val='4' />
+<RParenToken line=54 col=19 />
+<LParenToken line=55 col=1 />
+<IdentifierToken line=55 col=2 val='string-equal?' />
+<IdentifierToken line=55 col=16 val='str1' />
+<StrToken line=55 col=21 val='foo' />
+<RParenToken line=55 col=26 />
+<LParenToken line=56 col=1 />
+<IdentifierToken line=56 col=2 val='string-equal?' />
+<IdentifierToken line=56 col=16 val='str1' />
+<StrToken line=56 col=21 val='Hello, world!' />
+<RParenToken line=56 col=36 />
+<LParenToken line=57 col=1 />
+<IdentifierToken line=57 col=2 val='string' />
+<CharToken line=57 col=9 val='b' />
+<CharToken line=57 col=13 val='a' />
+<CharToken line=57 col=17 val='r' />
+<RParenToken line=57 col=20 />
+<LParenToken line=61 col=1 />
+<IdentifierToken line=61 col=2 val='+' />
+<IntToken line=61 col=4 val='3' />
+<IntToken line=61 col=6 val='5' />
+<RParenToken line=61 col=7 />
+<LParenToken line=62 col=1 />
+<IdentifierToken line=62 col=2 val='-' />
+<IntToken line=62 col=4 val='3' />
+<IntToken line=62 col=6 val='5' />
+<RParenToken line=62 col=7 />
+<LParenToken line=63 col=1 />
+<IdentifierToken line=63 col=2 val='*' />
+<IntToken line=63 col=4 val='3' />
+<IntToken line=63 col=6 val='5' />
+<RParenToken line=63 col=7 />
+<LParenToken line=64 col=1 />
+<IdentifierToken line=64 col=2 val='/' />
+<IntToken line=64 col=4 val='8' />
+<IntToken line=64 col=6 val='4' />
+<RParenToken line=64 col=7 />
+<LParenToken line=65 col=1 />
+<IdentifierToken line=65 col=2 val='/' />
+<IntToken line=65 col=4 val='2' />
+<IntToken line=65 col=6 val='3' />
+<RParenToken line=65 col=7 />
+<LParenToken line=66 col=1 />
+<IdentifierToken line=66 col=2 val='%' />
+<IntToken line=66 col=4 val='8' />
+<IntToken line=66 col=6 val='5' />
+<RParenToken line=66 col=7 />
+<LParenToken line=67 col=1 />
+<IdentifierToken line=67 col=2 val='==' />
+<IntToken line=67 col=5 val='8' />
+<IntToken line=67 col=7 val='9' />
+<RParenToken line=67 col=8 />
+<LParenToken line=68 col=1 />
+<IdentifierToken line=68 col=2 val='==' />
+<IntToken line=68 col=5 val='8' />
+<IntToken line=68 col=7 val='8' />
+<RParenToken line=68 col=8 />
+<LParenToken line=69 col=1 />
+<IdentifierToken line=69 col=2 val='==' />
+<IntToken line=69 col=5 val='8' />
+<IntToken line=69 col=7 val='3' />
+<RParenToken line=69 col=8 />
+<LParenToken line=70 col=1 />
+<IdentifierToken line=70 col=2 val='>' />
+<IntToken line=70 col=4 val='8' />
+<IntToken line=70 col=6 val='9' />
+<RParenToken line=70 col=7 />
+<LParenToken line=71 col=1 />
+<IdentifierToken line=71 col=2 val='>' />
+<IntToken line=71 col=4 val='8' />
+<IntToken line=71 col=6 val='8' />
+<RParenToken line=71 col=7 />
+<LParenToken line=72 col=1 />
+<IdentifierToken line=72 col=2 val='>' />
+<IntToken line=72 col=4 val='8' />
+<IntToken line=72 col=6 val='3' />
+<RParenToken line=72 col=7 />
+<LParenToken line=73 col=1 />
+<IdentifierToken line=73 col=2 val='>=' />
+<IntToken line=73 col=5 val='8' />
+<IntToken line=73 col=7 val='9' />
+<RParenToken line=73 col=8 />
+<LParenToken line=74 col=1 />
+<IdentifierToken line=74 col=2 val='>=' />
+<IntToken line=74 col=5 val='8' />
+<IntToken line=74 col=7 val='8' />
+<RParenToken line=74 col=8 />
+<LParenToken line=75 col=1 />
+<IdentifierToken line=75 col=2 val='>=' />
+<IntToken line=75 col=5 val='8' />
+<IntToken line=75 col=7 val='3' />
+<RParenToken line=75 col=8 />
+<LParenToken line=76 col=1 />
+<IdentifierToken line=76 col=2 val='<' />
+<IntToken line=76 col=4 val='8' />
+<IntToken line=76 col=6 val='9' />
+<RParenToken line=76 col=7 />
+<LParenToken line=77 col=1 />
+<IdentifierToken line=77 col=2 val='<' />
+<IntToken line=77 col=4 val='8' />
+<IntToken line=77 col=6 val='8' />
+<RParenToken line=77 col=7 />
+<LParenToken line=78 col=1 />
+<IdentifierToken line=78 col=2 val='<' />
+<IntToken line=78 col=4 val='8' />
+<IntToken line=78 col=6 val='3' />
+<RParenToken line=78 col=7 />
+<LParenToken line=79 col=1 />
+<IdentifierToken line=79 col=2 val='<=' />
+<IntToken line=79 col=5 val='8' />
+<IntToken line=79 col=7 val='9' />
+<RParenToken line=79 col=8 />
+<LParenToken line=80 col=1 />
+<IdentifierToken line=80 col=2 val='<=' />
+<IntToken line=80 col=5 val='8' />
+<IntToken line=80 col=7 val='8' />
+<RParenToken line=80 col=8 />
+<LParenToken line=81 col=1 />
+<IdentifierToken line=81 col=2 val='<=' />
+<IntToken line=81 col=5 val='8' />
+<IntToken line=81 col=7 val='3' />
+<RParenToken line=81 col=8 />
+<LParenToken line=82 col=1 />
+<IdentifierToken line=82 col=2 val='abs' />
+<IntToken line=82 col=6 val='5' />
+<RParenToken line=82 col=7 />
+<LParenToken line=83 col=1 />
+<IdentifierToken line=83 col=2 val='abs' />
+<IntToken line=83 col=6 val='0' />
+<RParenToken line=83 col=7 />
+<LParenToken line=84 col=1 />
+<IdentifierToken line=84 col=2 val='abs' />
+<IntToken line=84 col=6 val='-4' />
+<RParenToken line=84 col=8 />
+<LParenToken line=85 col=1 />
+<IdentifierToken line=85 col=2 val='abs' />
+<DblToken line=85 col=6 val='5.800000' />
+<RParenToken line=85 col=9 />
+<LParenToken line=86 col=1 />
+<IdentifierToken line=86 col=2 val='abs' />
+<DblToken line=86 col=6 val='-4.600000' />
+<RParenToken line=86 col=10 />
+<LParenToken line=87 col=1 />
+<IdentifierToken line=87 col=2 val='abs' />
+<DblToken line=87 col=6 val='0.000000' />
+<RParenToken line=87 col=9 />
+<LParenToken line=88 col=1 />
+<IdentifierToken line=88 col=2 val='abs' />
+<IdentifierToken line=88 col=6 val='inf+' />
+<RParenToken line=88 col=10 />
+<LParenToken line=89 col=1 />
+<IdentifierToken line=89 col=2 val='abs' />
+<IdentifierToken line=89 col=6 val='inf-' />
+<RParenToken line=89 col=10 />
+<LParenToken line=90 col=1 />
+<IdentifierToken line=90 col=2 val='abs' />
+<IdentifierToken line=90 col=6 val='pi' />
+<RParenToken line=90 col=8 />
+<LParenToken line=91 col=1 />
+<IdentifierToken line=91 col=2 val='sqrt' />
+<IntToken line=91 col=7 val='2' />
+<RParenToken line=91 col=8 />
+<LParenToken line=92 col=1 />
+<IdentifierToken line=92 col=2 val='acos' />
+<DblToken line=92 col=7 val='0.800000' />
+<RParenToken line=92 col=10 />
+<LParenToken line=93 col=1 />
+<IdentifierToken line=93 col=2 val='asin' />
+<DblToken line=93 col=7 val='0.800000' />
+<RParenToken line=93 col=10 />
+<LParenToken line=94 col=1 />
+<IdentifierToken line=94 col=2 val='atan' />
+<DblToken line=94 col=7 val='0.800000' />
+<RParenToken line=94 col=10 />
+<LParenToken line=95 col=1 />
+<IdentifierToken line=95 col=2 val='cos' />
+<DblToken line=95 col=6 val='0.800000' />
+<RParenToken line=95 col=9 />
+<LParenToken line=96 col=1 />
+<IdentifierToken line=96 col=2 val='cosh' />
+<DblToken line=96 col=7 val='0.800000' />
+<RParenToken line=96 col=10 />
+<LParenToken line=97 col=1 />
+<IdentifierToken line=97 col=2 val='sin' />
+<DblToken line=97 col=6 val='0.800000' />
+<RParenToken line=97 col=9 />
+<LParenToken line=98 col=1 />
+<IdentifierToken line=98 col=2 val='sinh' />
+<DblToken line=98 col=7 val='0.800000' />
+<RParenToken line=98 col=10 />
+<LParenToken line=99 col=1 />
+<IdentifierToken line=99 col=2 val='tan' />
+<DblToken line=99 col=6 val='0.800000' />
+<RParenToken line=99 col=9 />
+<LParenToken line=100 col=1 />
+<IdentifierToken line=100 col=2 val='tanh' />
+<DblToken line=100 col=7 val='0.800000' />
+<RParenToken line=100 col=10 />
+<LParenToken line=101 col=1 />
+<IdentifierToken line=101 col=2 val='integer?' />
+<DblToken line=101 col=11 val='1.300000' />
+<RParenToken line=101 col=14 />
+<LParenToken line=102 col=1 />
+<IdentifierToken line=102 col=2 val='integer?' />
+<IntToken line=102 col=11 val='3' />
+<RParenToken line=102 col=12 />
+<LParenToken line=103 col=1 />
+<IdentifierToken line=103 col=2 val='double?' />
+<DblToken line=103 col=10 val='1.300000' />
+<RParenToken line=103 col=13 />
+<LParenToken line=104 col=1 />
+<IdentifierToken line=104 col=2 val='double?' />
+<IntToken line=104 col=10 val='3' />
+<RParenToken line=104 col=11 />
+<LParenToken line=105 col=1 />
+<IdentifierToken line=105 col=2 val='number?' />
+<IntToken line=105 col=10 val='5' />
+<RParenToken line=105 col=11 />
+<LParenToken line=106 col=1 />
+<IdentifierToken line=106 col=2 val='number?' />
+<DblToken line=106 col=10 val='5.800000' />
+<RParenToken line=106 col=13 />
+<LParenToken line=107 col=1 />
+<IdentifierToken line=107 col=2 val='number?' />
+<StrToken line=107 col=10 val='hi' />
+<RParenToken line=107 col=14 />
+<LParenToken line=108 col=1 />
+<IdentifierToken line=108 col=2 val='symbol?' />
+<AbbrevToken line=108 col=10 />
+<IdentifierToken line=108 col=11 val='a' />
+<RParenToken line=108 col=12 />
+<LParenToken line=109 col=1 />
+<IdentifierToken line=109 col=2 val='symbol?' />
+<IntToken line=109 col=10 val='3' />
+<RParenToken line=109 col=11 />
+<LParenToken line=110 col=1 />
+<IdentifierToken line=110 col=2 val='procedure?' />
+<IdentifierToken line=110 col=13 val='+' />
+<RParenToken line=110 col=14 />
+<LParenToken line=111 col=1 />
+<DefineToken line=111 col=2 />
+<IdentifierToken line=111 col=9 val='lambda1' />
+<LParenToken line=111 col=17 />
+<LambdaToken line=111 col=18 />
+<LParenToken line=111 col=25 />
+<IdentifierToken line=111 col=26 val='formal1' />
+<RParenToken line=111 col=33 />
+<LParenToken line=111 col=35 />
+<IdentifierToken line=111 col=36 val='+' />
+<IdentifierToken line=111 col=38 val='formal1' />
+<IntToken line=111 col=46 val='1' />
+<RParenToken line=111 col=47 />
+<RParenToken line=111 col=48 />
+<RParenToken line=111 col=49 />
+<LParenToken line=112 col=1 />
+<IdentifierToken line=112 col=2 val='procedure?' />
+<IdentifierToken line=112 col=13 val='lambda1' />
+<RParenToken line=112 col=20 />
+<LParenToken line=113 col=1 />
+<IdentifierToken line=113 col=2 val='log10' />
+<DblToken line=113 col=8 val='1.300000' />
+<RParenToken line=113 col=11 />
+<LParenToken line=114 col=1 />
+<IdentifierToken line=114 col=2 val='loge' />
+<DblToken line=114 col=7 val='1.300000' />
+<RParenToken line=114 col=10 />
+<LParenToken line=115 col=1 />
+<IdentifierToken line=115 col=2 val='pow' />
+<IntToken line=115 col=6 val='5' />
+<IntToken line=115 col=8 val='3' />
+<RParenToken line=115 col=9 />
+<LParenToken line=116 col=1 />
+<IdentifierToken line=116 col=2 val='not' />
+<BoolToken line=116 col=6 val='true' />
+<RParenToken line=116 col=8 />
+<LParenToken line=117 col=1 />
+<IdentifierToken line=117 col=2 val='not' />
+<BoolToken line=117 col=6 val='false' />
+<RParenToken line=117 col=8 />
+<LParenToken line=118 col=1 />
+<IdentifierToken line=118 col=2 val='not' />
+<IntToken line=118 col=6 val='3' />
+<RParenToken line=118 col=7 />
+<LParenToken line=119 col=1 />
+<IdentifierToken line=119 col=2 val='integer?' />
+<LParenToken line=119 col=11 />
+<IdentifierToken line=119 col=12 val='integer->double' />
+<IntToken line=119 col=28 val='5' />
+<RParenToken line=119 col=29 />
+<RParenToken line=119 col=30 />
+<LParenToken line=120 col=1 />
+<IdentifierToken line=120 col=2 val='double?' />
+<LParenToken line=120 col=10 />
+<IdentifierToken line=120 col=11 val='integer->double' />
+<IntToken line=120 col=27 val='5' />
+<RParenToken line=120 col=28 />
+<RParenToken line=120 col=29 />
+<LParenToken line=121 col=1 />
+<IdentifierToken line=121 col=2 val='integer?' />
+<LParenToken line=121 col=11 />
+<IdentifierToken line=121 col=12 val='double->integer' />
+<DblToken line=121 col=28 val='5.800000' />
+<RParenToken line=121 col=31 />
+<RParenToken line=121 col=32 />
+<LParenToken line=122 col=1 />
+<IdentifierToken line=122 col=2 val='double?' />
+<LParenToken line=122 col=10 />
+<IdentifierToken line=122 col=11 val='double->integer' />
+<DblToken line=122 col=27 val='5.800000' />
+<RParenToken line=122 col=30 />
+<RParenToken line=122 col=31 />
+<LParenToken line=123 col=1 />
+<IdentifierToken line=123 col=2 val='null?' />
+<AbbrevToken line=123 col=8 />
+<LParenToken line=123 col=9 />
+<RParenToken line=123 col=10 />
+<RParenToken line=123 col=11 />
+<LParenToken line=124 col=1 />
+<IdentifierToken line=124 col=2 val='null?' />
+<AbbrevToken line=124 col=8 />
+<VectorToken line=124 col=9 />
+<RParenToken line=124 col=11 />
+<RParenToken line=124 col=12 />
+<LParenToken line=125 col=1 />
+<IdentifierToken line=125 col=2 val='null?' />
+<BoolToken line=125 col=8 val='false' />
+<RParenToken line=125 col=10 />
+<LParenToken line=126 col=1 />
+<IdentifierToken line=126 col=2 val='null?' />
+<BoolToken line=126 col=8 val='true' />
+<RParenToken line=126 col=10 />
+<EofToken />
